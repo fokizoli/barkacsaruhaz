@@ -42,12 +42,16 @@ nav{
     border: 2px solid brown;
     text-align: center;
     margin-top: 1em;
-    background-color: rgba(110 50 0);
+    
 }
 
+figure{
+    background-color: rgba(110 50 0);
+}
 .fakeret img{
     width: 20em;
-    border-radius: 10em;    
+    border-radius: 10em; 
+    padding-top: 1em;   
 }
 
 p{
