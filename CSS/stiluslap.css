@@ -21,6 +21,7 @@ nav{
     color: rgb(255, 255, 200);
     font-size: 3em;
     text-align: center;
+
     border-top: 2px solid black;
 }
 
@@ -55,4 +56,22 @@ p{
     background-color: rgba(110 50 0) ;
     color: rgba(255 255 200);
     font-size: 1.1em;
+}
+
+nav a{
+    font-size: 2em;
+    color: rgb(255, 255, 200);
+    margin: 15px;
+    font-style: italic;
+}
+
+nav a:hover {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 0 0 5px black;   
+}
+
+nav div{
+    background-color:rgb(110, 50, 0);
 }
