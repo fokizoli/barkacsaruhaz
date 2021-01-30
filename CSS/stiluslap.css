@@ -39,5 +39,20 @@ nav{
 
 .fakeret{
     height: 400px;
-    
+    border: 2px solid brown;
+    text-align: center;
+    margin-top: 1em;
+    background-color: rgba(110 50 0);
+}
+
+.fakeret img{
+    width: 20em;
+    border-radius: 10em;    
+}
+
+p{
+    text-align: justify;
+    background-color: rgba(110 50 0) ;
+    color: rgba(255 255 200);
+    font-size: 1.1em;
 }
