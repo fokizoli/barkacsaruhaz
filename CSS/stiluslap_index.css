@@ -8,34 +8,44 @@
 }
 
 nav{
-    padding: 20px;
+    padding: 3rem 10rem 3rem 10rem;
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
-    height: 150px;
     font-size: 2em;
 }
 
 #fej{
-    height: 150px;
+    padding: 3rem 10rem 3rem 10rem;
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
     font-size: 3em;
     text-align: center;
-
     border-top: 2px solid black;
 }
 
 #lab{
-    height: 150px;
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
     font-size: 2em;
+    padding: 1rem 10rem 1rem 10rem;
 }
 
 #torzs{
-    height: 500px;
-    height: 150px;
-    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 234, 214);
+}
+
+.kep {
+    width: 43%;
+    height: auto;
+    background-color: rgb(255, 234, 214);
+    margin: 0 auto 0 auto;
+}
+
+.kep img {
+    width: 100%;
+    margin: 3rem 0rem 3rem 0rem;
 }
 
 .fakeret{
@@ -43,16 +53,12 @@ nav{
     border: 2px solid brown;
     text-align: center;
     margin-top: 1em;
-    
-}
-
-figure{
     background-color: rgba(110 50 0);
 }
+
 .fakeret img{
     width: 20em;
-    border-radius: 10em; 
-    padding-top: 1em;   
+    border-radius: 10em;    
 }
 
 p{
@@ -73,9 +79,18 @@ nav a:hover {
     color: white;
     font-style: italic;
     text-decoration: none;
-    text-shadow: 0 0 5px black;   
+    /*text-shadow: 0 0 5px black;*/
 }
 
 nav div{
     background-color:rgb(110, 50, 0);
+}
+
+#fej p {
+    text-align: center;
+}
+
+#lab p {
+    text-align: center;
+    margin: 0em;
 }
