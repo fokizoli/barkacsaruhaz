@@ -1,3 +1,5 @@
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,14 +44,7 @@ table {
 	border-spacing: 0;
 }
 
-/*{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font-size: 10px;
-    vertical-align: baseline;
-    background-color: rgb(255, 234, 214);
-}*/
+/* ================= nav ================= */
 
 nav{
     padding: 2rem 10rem 2rem 10rem;
@@ -58,7 +53,27 @@ nav{
     font-size: 0.7rem;
 }
 
-#fej{
+nav a{
+    font-size: 2em;
+    color: rgb(255, 255, 200);
+    margin: 15px;
+    font-style: italic;
+}
+
+nav a:hover {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    /*text-shadow: 0 0 5px black;*/
+}
+
+nav div{
+    background-color:rgb(110, 50, 0);
+}
+
+/* ================= header ================= */
+
+header {
     padding: 2rem 10rem 2rem 10rem;
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
@@ -67,28 +82,32 @@ nav{
     border-top: 2px solid black;
 }
 
-#fej p {
+header p {
     text-align: center;
 }
 
-#lab{
+/* ================= footer ================= */
+
+footer {
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
     font-size: 1rem;
     padding: 1rem 10rem 1rem 10rem;
 }
 
-#lab li {
+footer li{
     text-align: center;
     margin: 0.2rem;
 }
 
-#lab img{
+footer img {
     width: 0.8rem;
     margin-right: 0.5rem;
 }
 
-#torzs{
+/* ================= main ================= */
+
+main {
     width: 100%;
     height: auto;
     background-color: rgb(255, 234, 214);
@@ -117,22 +136,4 @@ nav{
 .fakeret img{
     width: 20em;
     border-radius: 10em;    
-}
-
-nav a{
-    font-size: 2em;
-    color: rgb(255, 255, 200);
-    margin: 15px;
-    font-style: italic;
-}
-
-nav a:hover {
-    color: white;
-    font-style: italic;
-    text-decoration: none;
-    /*text-shadow: 0 0 5px black;*/
-}
-
-nav div{
-    background-color:rgb(110, 50, 0);
 }
