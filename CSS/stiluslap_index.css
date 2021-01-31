@@ -26,7 +26,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: rgb(255, 234, 214);
+    height: 100vh;
 }
 ol, ul {
 	list-style: none;
@@ -44,13 +46,18 @@ table {
 	border-spacing: 0;
 }
 
+/*body {
+    height: 100%;
+    width: calc(100vw - (100vw - 100%));
+}*/
+
 /* ================= nav ================= */
 
 nav {
-    padding: 2rem 10rem 2rem 10rem;
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
     font-size: 0.7rem;
+    padding: 25px;
 }
 
 nav a{
@@ -64,7 +71,7 @@ nav a:hover {
     color: white;
     font-style: italic;
     text-decoration: none;
-    /*text-shadow: 0 0 5px black;*/
+    text-shadow: 0 0 5px black;
 }
 
 nav div{
@@ -74,7 +81,7 @@ nav div{
 /* ================= header ================= */
 
 header {
-    padding: 2rem 10rem 2rem 10rem;
+    padding: 35px 0px;
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
     font-size: 2.5rem;
@@ -92,7 +99,7 @@ footer {
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
     font-size: 1rem;
-    padding: 1rem 10rem 1rem 10rem;
+    padding:10px;
 }
 
 footer li{
@@ -108,15 +115,15 @@ footer img {
 /* ================= main ================= */
 
 main {
-    width: 100%;
-    height: auto;
-    background-color: rgb(255, 234, 214);
+    width: 80%;
+    height: calc(100vh - (0.7rem + 50px + 2.5rem + 70px + 2px + 3rem + 20px + 1.5rem));
+    /*border: 10px solid black;*/
+    margin: 0 auto 0 auto;
 }
 
 .kep {
     width: 43.5%;
-    height: auto;
-    background-color: rgb(255, 234, 214);
+    height: 100%;
     margin: 0 auto 0 auto;
 }
 
