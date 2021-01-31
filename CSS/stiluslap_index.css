@@ -46,11 +46,6 @@ table {
 	border-spacing: 0;
 }
 
-/*body {
-    height: 100%;
-    width: calc(100vw - (100vw - 100%));
-}*/
-
 /* ================= nav ================= */
 
 nav {
@@ -122,25 +117,15 @@ main {
 }
 
 .kep {
-    width: 43.5%;
+    width: 50%;
     height: 100%;
+    /*border: 3px solid red;*/
     margin: 0 auto 0 auto;
+    position: relative;
+    padding: 0;
 }
 
 .kep img {
     width: 100%;
-    margin: 3rem 0rem 3rem 0rem;
-}
-
-.fakeret{
-    height: 400px;
-    border: 2px solid brown;
-    text-align: center;
-    margin-top: 1em;
-    background-color: rgba(110 50 0);
-}
-
-.fakeret img{
-    width: 20em;
-    border-radius: 10em;    
+    margin: 9vh 0vh;
 }
