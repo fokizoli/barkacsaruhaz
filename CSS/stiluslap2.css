@@ -7,6 +7,7 @@
     background-color: rgb(255, 234, 214);
 }
 
+/* ----  nav formázása   ------*/
 nav{
     padding: 20px;
     background-color:rgb(110, 50, 0);
@@ -15,12 +16,33 @@ nav{
     font-size: 2em;
 }
 
+nav a{
+    font-size: 2em;
+    color: rgb(255, 255, 200);
+    margin: 15px;
+    font-style: italic;
+}
+
+nav a:hover {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 0 0 5px black;   
+}
+
+nav div{
+    background-color:rgb(110, 50, 0);
+}
+/* ----  nav formázása vége   ------*/
+
+
 #fej{
     height: 150px;
     background-color:rgb(110, 50, 0);
     color: rgb(255, 255, 200);
     font-size: 3em;
     text-align: center;
+
     border-top: 2px solid black;
 }
 
@@ -37,6 +59,7 @@ nav{
     background-color: rgba(255, 255, 255, 0.8);
 }
 
+/* ----  faanyagok formázása   ------*/
 .tarto{    
     padding: 1em;
     text-align: center;
