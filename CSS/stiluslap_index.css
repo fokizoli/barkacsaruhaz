@@ -112,19 +112,9 @@ footer img {
 main {
     width: 80%;
     height: calc(100vh - (0.7rem + 50px + 2.5rem + 70px + 2px + 3rem + 20px + 1.5rem));
-    /*border: 10px solid black;*/
-    margin: 0 auto 0 auto;
 }
 
-.kep {
-    width: 50%;
-    /*border: 3px solid red;*/
-    margin: 0 auto 0 auto;
-    position: relative;
-    /*padding: 0;*/
-}
-
-.kep img {
+main img {
     width: 100%;
     margin: 9vh 0vh;
 }
