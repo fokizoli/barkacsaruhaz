@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 10px;
+    vertical-align: baseline;
+    background-color: rgb(255, 234, 214);
+}
+
+nav{
+    padding: 20px;
+    background-color:rgb(110, 50, 0);
+    color: rgb(255, 255, 200);
+    height: 150px;
+    font-size: 2em;
+}
+
+#fej{
+    height: 150px;
+    background-color:rgb(110, 50, 0);
+    color: rgb(255, 255, 200);
+    font-size: 3em;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+#lab{
+    height: 150px;
+    background-color:rgb(110, 50, 0);
+    color: rgb(255, 255, 200);
+    font-size: 2em;
+}
+
+#torzs{
+    height: 500px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tarto{    
+    padding: 1em;
+    text-align: center;
+}
+
+.fakeret{
+    height: 100%;
+    border: 2px solid brown;
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 1em;   
+}
+
+figure{
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: rgba(110 50 0);
+    padding: 10px;
+}
+
+figcaption{
+    margin-top: 1em;
+    font-family: cursive;
+    font-size: 14pt;
+}
+
+.fakeret img{
+    width: 14em;
+    border-radius: 7em;
+    border: solid .3em white;       
+}
+
+figcaption.leiras{
+    text-align: justify;
+    background-color: rgba(255,0,0,0.2);
+    color: rgba(255 255 200);
+    font-size: 1.1em;
+    padding: 1em;
+    margin: auto;
+}
