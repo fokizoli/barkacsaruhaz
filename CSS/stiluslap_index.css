@@ -118,11 +118,10 @@ main {
 
 .kep {
     width: 50%;
-    height: 100%;
     /*border: 3px solid red;*/
     margin: 0 auto 0 auto;
     position: relative;
-    padding: 0;
+    /*padding: 0;*/
 }
 
 .kep img {
