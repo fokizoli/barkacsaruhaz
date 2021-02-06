@@ -188,7 +188,33 @@ figcaption.leiras{
     margin: auto;
 }
 
+.table{
+    margin: auto;
+    text-align: left;
+    vertical-align: middle;
+    width: 80%;
+    background-color: rgba(110 50 0);
+    color: rgba(255 255 200);    
+}
 
+tr{    
+    height: 1.5rem; 
+}
 
+tr.csik:nth-child(even) {
+    background: rgb(150, 70, 40);
+}
+
+tr.csik:nth-child(odd) {
+    background: rgb(80, 30, 20);
+}
+
+th{
+    padding-left: .2rem;    
+}
+
+td{    
+    padding-left: .2rem;
+}
 
 
