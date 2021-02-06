@@ -8,16 +8,20 @@
     <title>Festékek</title>
 </head>
 <body>
-    <nav class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <a href="index.html">Főoldal</a>
-                <a href="rolunk.html">Rólunk</a>
-                <a href="festek.html">Festék</a>
-                <a href="faanyagok.html">Faanyagok</a>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">DIY</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Főoldal</a>
+        <a class="nav-item nav-link" href="rolunk.html">Rólunk <span class="sr-only">(aktuális oldal)</span></a>
+        <a class="nav-item nav-link active" href="festek.html">Festék</a>
+        <a class="nav-item nav-link" href="faanyagok.html">Faanyagok</a>
+      </div>
+    </div>
+  </nav>
 
 
      <header class="container-fluid">
@@ -42,7 +46,7 @@
       
       
                   <div class="kep">
-                    <div class="minta" style="background-color: lightblue;"></div>
+                    <div class="festekszin bg-info"></div>
                     <img src="img/bucket.jpg" alt="" class="img-fluid">
                   </div>
                   <h2>Albert beltéri falfesték Égkék (2&nbsp;liter)</h2>
@@ -62,7 +66,7 @@
       
       
                   <div class="kep">
-                    <div class="minta" style="background-color: lightblue;"></div>
+                    <div class="festekszin bg-info"></div>
                     <img src="img/bucket.jpg" alt="" class="img-fluid">
                   </div>
                   <h2>Albert beltéri falfesték Égkék (2&nbsp;liter)</h2>
@@ -82,7 +86,7 @@
       
       
                   <div class="kep">
-                    <div class="minta" style="background-color: steelblue;"></div>
+                    <div class="festekszin bg-primary"></div>
                     <img src="img/bucket.jpg" alt="" class="img-fluid">
                   </div>
                   <h2>Albert beltéri falfesték Acélkék (2&nbsp;liter)</h2>
@@ -103,7 +107,7 @@
   
   
               <div class="kep">
-                <div class="minta" style="background-color: springgreen;"></div>
+                <div class="festekszin bg-success"></div>
                 <img src="img/bucket.jpg" alt="" class="img-fluid">
               </div>
               <h2>Albert beltéri falfesték Tavasz zöld (2&nbsp;liter)</h2>
@@ -124,7 +128,7 @@
   
   
               <div class="kep">
-                <div class="minta" style="background-color: tomato;"></div>
+                <div class="festekszin bg-danger" ></div>
                 <img src="img/bucket.jpg" alt="" class="img-fluid">
               </div>
               <h2>Albert beltéri falfesték Paradicsom (2&nbsp;liter)</h2>
@@ -145,7 +149,7 @@
   
   
               <div class="kep">
-                <div class="minta" style="background-color: salmon;"></div>
+                <div class="festekszin bg-danger"></div>
                 <img src="img/bucket.jpg" alt="" class="img-fluid">
               </div>
               <h2>Albert beltéri falfesték Lazac (2&nbsp;liter)</h2>
@@ -160,10 +164,22 @@
   
           </div>
         </div>
-    <div id="lab">
-        <p>Kapcsolat: DIY Barkácsáruház</p>
-        <p>E-mail: info@barkacsaruhaz.hu</p>
-        <p>Telefon: +36-1-555-5555</p>
-    </div>
+        <footer class="container-fluid">
+          <div class="row">
+              <div class="col-12">
+                  <ul>
+                      <li><img src="./img/letter.svg" alt="">DIY Barkácsáruház</li>
+                      <li><img src="./img/email.svg" alt="">info@barkacsaruhaz.hu</li>
+                      <li><img src="./img/telephone.svg" alt="">+36-1-555-5555</li>
+                  </ul>
+              </div>
+          </div>
+      </footer>
+
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
