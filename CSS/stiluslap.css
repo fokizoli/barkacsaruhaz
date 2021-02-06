@@ -143,30 +143,48 @@ main img {
 
 /* ================= Faanyag ================= */
 
+.tarto{    
+    padding: 1em;
+    text-align: center;
+}
+
 .fakeret{
-    height: 400px;
+    height: 100%;
     border: 2px solid brown;
     text-align: center;
-    margin-top: 1em;
-    
+    margin: auto; 
+    margin-bottom: 1em;   
 }
 
 figure{
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
     background-color: rgba(110 50 0);
-}
-.fakeret img{
-    width: 20em;
-    border-radius: 10em; 
-    padding-top: 1em;   
+    padding: 10px;
 }
 
-p{
+figcaption{
+    margin-top: 1em;
+    font-family: cursive;
+    font-size: 14pt;
+}
+
+.fakeret img{
+    width: 14em;
+    border-radius: 7em;
+    border: solid .3em white;       
+}
+
+figcaption.leiras{
     text-align: justify;
-    background-color: rgba(110 50 0) ;
+    background-color: rgba(255,0,0,0.2);
     color: rgba(255 255 200);
     font-size: 1.1em;
+    padding: 1em;
+    margin: auto;
 }
-
 
 
 
