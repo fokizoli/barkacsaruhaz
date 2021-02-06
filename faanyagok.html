@@ -11,6 +11,21 @@
 
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html"><img src="./img/logo.png" alt="DIY logó"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Főoldal</a>
+            <a class="nav-item nav-link" href="rolunk.html">Rólunk <span class="sr-only">(aktuális oldal)</span></a>
+            <a class="nav-item nav-link" href="festek.html">Festék</a>
+            <a class="nav-item nav-link active" href="faanyagok.html">Faanyagok</a>
+          </div>
+        </div>
+    </nav>
+<!--
     <nav class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -21,6 +36,8 @@
             </div>
         </div>
     </nav>
+-->
+
     <header class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -40,7 +57,48 @@
                     <img src="img/faanyagok/bukk.jpg" alt="Bükkfa képe">
                     <figcaption>Bükkfa</figcaption>
                     <figcaption class="leiras">A Bükk-vidék központi területe az ország tüdeje, védett és gondozott, nagy kiterjedésű vadon, amelynek tájképi szépsége és élővilága felejthetetlen élményeket nyújt a kirándulóknak. A hegységben sok jelzett turistaút található, melyek turistatérkép segítségével jól követhetők. Gyalogosan a látnivalók többsége felkereshető, míg motoros járművel a behajtás csak a kijelölt pihenőhelyek parkolójáig engedélyezett. A környező településeken sok turistaegyesület működik, amelyek meghirdetett túráikon vendégeket is szívesen látnak.</figcaption>
-                </figure>                
+                </figure>   
+                <table class="table">
+                    <tr>
+                        <th>Tulajdonság</th>
+                        <th>Érték</th>
+                    </tr>
+
+                    <tr class="csik">
+                        <td>Rönk hossz</td>
+                        <td>10...20m</td>
+                    </tr>
+                    
+                    <tr class="csik">
+                        <td>Rönk átmérő</td>
+                        <td>0,9...1,5m</td>
+                    </tr>
+
+                    <tr class="csik">
+                        <td>Sűrűsség</td>
+                        <td>0,68g/cm<sup>3</sup></td>
+                    </tr>                    
+
+                    <tr class="csik">
+                        <td>Zsugorítás</td>
+                        <td>5,8%</td>
+                    </tr>
+
+                    <tr class="csik">
+                        <td>Zsugorítás2</td>
+                        <td>11,8%</td>
+                    </tr>
+
+                    <tr class="csik">
+                        <td>Keménység</td>
+                        <td>34MPa</td>
+                    </tr>
+
+                    <tr class="csik">
+                        <td>Keménység2</td>
+                        <td>72MPa</td>
+                    </tr>           
+                </table>             
                 </div>
             </div>   
             
@@ -424,5 +482,9 @@
         </div>
     </footer>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
